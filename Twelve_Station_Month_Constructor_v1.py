@@ -26,6 +26,8 @@ Description:        HI-Res month Printer
                     
                     OUTPUT VARIABLES
 
+                    Format 0:
+                    
                     Format 1:
 
                     Format 2:
