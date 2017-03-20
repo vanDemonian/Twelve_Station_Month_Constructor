@@ -28,8 +28,14 @@ def TwelveStationMonthMaker(name):
 	    		48 columns across by 31 rows high
 				1 - 31 days on vertical axis
 	    		station by time of day on horizontal axis
-	    		12 vertical bands  - Stations 1 - 2
+	    		12 vertical bands  - Stations 1 - 12
 
+
+	    Format 3: h 31 x w (4 x 12)
+	    		48 columns across by 31 rows high
+				1 - 31 days on vertical axis
+	    		station by time of day on horizontal axis
+	    		12 vertical bands  - Stations 1 - 12 am, 1-12 noon, 1-12 pm, 1-12 midnight
 
 
 
@@ -44,7 +50,7 @@ def TwelveStationMonthMaker(name):
 	"""	
 
 	#____________________________________________________________________________
-	format 		= 3
+	format 		= 0
 	xstep 		= 680
 	ystep 		= 452
 
