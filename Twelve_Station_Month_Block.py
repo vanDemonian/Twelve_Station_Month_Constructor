@@ -33,12 +33,12 @@ def Twelve_Station_Month_Block(MONTH):
         
 	"""
 	#format 0 and 1
-	#imageWidth  = imW = 21080
-	#imageHeight = imH = 21696
+	imageWidth  = imW = 21080
+	imageHeight = imH = 21696
 
 	#format 2 and 3
-	imageWidth  = imW = 32640
-	imageHeight = imH = 14012
+	#imageWidth  = imW = 32640
+	#imageHeight = imH = 14012
 
 
 	printSize   = (imW, imH)
@@ -87,7 +87,7 @@ def Twelve_Station_Month_Block(MONTH):
    	#Proofimg.save(outputDir+'/'+nameInfo[2] +'_'+ today +'_'+'PROOF_'+'.jpg','jpeg', quality =100)#jpeg
 
    	#Proofimg.save(outputDir +'/'+ location + '_' + thisMonth +'_'+'.tif','tiff', quality = quality )#tiff
-   	Proofimg.save(outputDir +'/'+ 'TwelveStations_3' + '_' + thisMonth +'_'+'.tif','tiff', quality = quality )#jpeg
+   	Proofimg.save(outputDir +'/'+ 'TwelveStations' + '_' + thisMonth +'_'+'.tif','tiff', quality = quality )#jpeg
 
 	print 'cellInfo ', cellInfo
 
